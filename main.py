@@ -5,9 +5,8 @@ def palin(word):
     return False
     
 word = "kajak"
-yes = palin(word)
 
-if yes:
+if palin(word):
     print("To słowo jest palindormem")
 else:
     print("To słowo nie jest palindormem")
